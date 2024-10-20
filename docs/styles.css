@@ -13,3 +13,31 @@ h1 {
     color: #333;
     font-size: 2.5em;
 }
+
+.container {
+    text-align: center;
+    align-items: center;
+}
+
+#confettiButton {
+    background-color: #6200ea;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    font-weight: bold;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+#confettiButton:hover {
+    background-color: #3700b3;
+    transform: scale(1.05);
+}
+
+#confettiButton:active {
+    background-color: #03dac5;
+    transform: scale(0.95);
+}
